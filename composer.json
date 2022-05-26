@@ -1,0 +1,28 @@
+{
+    "name": "alpa/oauth_manager",
+    "description": "Authorization/authentication via oauth services",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey",
+            "email": "alexeyp0708@gmail.com"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alpa\\Icms\\Oauth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alpa\\Icms\\Oauth\\Tests\\": "tests/"
+        }
+    }
+}
